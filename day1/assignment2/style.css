@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    background-color: aliceblue;
+}
+.naviBar{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid black;
+    padding: 3px;
+}
+
+nav div{
+    border: 1px solid black;
+    padding: 3px;
+    width: 120px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section div{
+    width: 500px;
+    margin: 30px;
+}
+
+section div img{
+    width: 100%;
+    align-content: center;
+}
